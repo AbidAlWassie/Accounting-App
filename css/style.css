@@ -27,6 +27,7 @@ thead > * {
 
 .table-sortable th {
   cursor: pointer;
+  user-select: none;
 }
 
 .table-sortable .th-sort-asc::after {
@@ -44,5 +45,5 @@ thead > * {
 
 .table-sortable .th-sort-asc,
 .table-sortable .th-sort-desc {
-  background: rgba(0, 0, 0, 0.1);
+  background-color: rgba(36, 112, 198, 0.9) !important;
 }
