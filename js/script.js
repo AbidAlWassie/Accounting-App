@@ -12,9 +12,14 @@ function sortTableByColumn(table, column, asc = true) {
   
   // Sort each row
   const sortedRows = rows.sort((a, b) => {
-    const aColText = a.querySelector(`td:nth-child(${ column + 1 })`).textContent.trim();
-    const bColText = b.querySelector(`td:nth-child(${ column + 1 })`).textContent.trim();
-    
+    let aColText = a.querySelector(`td:nth-child(${column + 1})`).textContent.trim();
+    let bColText = b.querySelector(`td:nth-child(${column + 1})`).textContent.trim();
+  
+    if (!isNaN(parseFloat(aColText)) && !isNaN(parseFloat(bColText))) {
+      aColText = parseFloat(aColText)
+      bColText = parseFloat(bColText)
+    }
+  
     return aColText > bColText ? (1 * dirModifier) : (-1 * dirModifier);
   });
   
@@ -42,7 +47,6 @@ document.querySelectorAll(".table-sortable th").forEach(headerCell => {
   });
 });
 
-
 function addRow() {
   // get input values
   const brand = document.getElementById("brand").value;
@@ -57,6 +61,10 @@ function addRow() {
   const table = document.getElementsByTagName("table")[0];
   
   const newRow = table.insertRow(table.rows.length/2+1);
+  
+  // if (brand === name === color === size) {
+  //
+  // }
   
   // add cells to the row
   const cell1 = newRow.insertCell(0);
