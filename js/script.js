@@ -45,26 +45,26 @@ document.querySelectorAll(".table-sortable th").forEach(headerCell => {
 
 function addRow() {
   // get input values
-  var brand = document.getElementById("brand").value;
-  var name = document.getElementById("name").value;
-  var color = document.getElementById("color").value;
-  var size = document.getElementById("size").value;
-  var price = document.getElementById("price").value;
-  var quantity = document.getElementById("quantity").value;
+  const brand = document.getElementById("brand").value;
+  const name = document.getElementById("name").value;
+  const color = document.getElementById("color").value;
+  const size = document.getElementById("size").value;
+  const price = document.getElementById("price").value;
+  const quantity = document.getElementById("quantity").value;
   
   // get the html table
   // 0 = the first table
-  var table = document.getElementsByTagName("table")[0];
+  const table = document.getElementsByTagName("table")[0];
   
-  var newRow = table.insertRow(table.rows.length/2+1);
+  const newRow = table.insertRow(table.rows.length/2+1);
   
   // add cells to the row
-  var cell1 = newRow.insertCell(0);
-  var cell2 = newRow.insertCell(1);
-  var cell3 = newRow.insertCell(2);
-  var cell4 = newRow.insertCell(3);
-  var cell5 = newRow.insertCell(4);
-  var cell6 = newRow.insertCell(5);
+  const cell1 = newRow.insertCell(0);
+  const cell2 = newRow.insertCell(1);
+  const cell3 = newRow.insertCell(2);
+  const cell4 = newRow.insertCell(3);
+  const cell5 = newRow.insertCell(4);
+  const cell6 = newRow.insertCell(5);
   
   // add values to the cells
   cell1.innerHTML = brand;
