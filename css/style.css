@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 #stock {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -13,11 +16,16 @@
 
 #stock tr:hover {background-color: #ddd;}
 
-#stock th {
+#stock thead th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
   background-color: #3d90ee;
+  color: white;
+}
+
+#stock tfoot th {
+  background-color: #2b2b2b;
   color: white;
 }
 
