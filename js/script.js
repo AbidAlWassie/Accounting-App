@@ -16,8 +16,8 @@ function sortTableByColumn(table, column, asc = true) {
     let bColText = b.querySelector(`td:nth-child(${column + 1})`).textContent.trim();
   
     if (!isNaN(parseFloat(aColText)) && !isNaN(parseFloat(bColText))) {
-      aColText = parseFloat(aColText)
-      bColText = parseFloat(bColText)
+      aColText = parseFloat(aColText);
+      bColText = parseFloat(bColText);
     }
   
     return aColText > bColText ? (1 * dirModifier) : (-1 * dirModifier);
