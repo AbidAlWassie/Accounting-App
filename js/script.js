@@ -1,3 +1,19 @@
+window.onload = () => {
+  var rootStock = document.getElementById("root-stock");
+  var ourRequest = new XMLHttpRequest();
+  ourRequest.open("GET", "js/list.json");
+  ourRequest.onload = function () {
+    var ourData = JSON.parse(ourRequest.responseText);
+    renderHTML(ourData);
+    console.log(ourData[0]);
+  }
+  ourRequest.send();
+  
+  function renderHTML(data) {
+  
+  }
+}
+
 /**
  * Sorts a HTML table.
  *
