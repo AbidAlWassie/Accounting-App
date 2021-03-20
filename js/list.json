@@ -4,7 +4,7 @@
     "name" : "SPD",
     "color" : "Green",
     "size" : "3.6 liter",
-    "price" : "500",
+    "price" : "520",
     "quantity" : "1"
   },
   {
@@ -12,7 +12,7 @@
     "name" : "SPD",
     "color" : "Grey",
     "size" : "3.6 liter",
-    "price" : "500",
+    "price" : "460",
     "quantity" : "6"
   },
   {
@@ -20,7 +20,7 @@
     "name" : "SPD",
     "color" : "Blue",
     "size" : "10 liter",
-    "price" : "500",
+    "price" : "340",
     "quantity" : "18"
   },
   {
@@ -28,7 +28,7 @@
     "name" : "SPD",
     "color" : "Yellow",
     "size" : "15 liter",
-    "price" : "200",
+    "price" : "220",
     "quantity" : "13"
   },
   {
@@ -36,7 +36,7 @@
     "name" : "SPD",
     "color" : "Purple",
     "size" : "5 liter",
-    "price" : "100",
+    "price" : "170",
     "quantity" : "7"
   },
   {
@@ -44,7 +44,7 @@
     "name" : "SPD",
     "color" : "Red",
     "size" : "5 liter",
-    "price" : "100",
+    "price" : "60",
     "quantity" : "5"
   }
 ]
