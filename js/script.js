@@ -1,16 +1,30 @@
 window.onload = () => {
   var rootStock = document.getElementById("root-stock");
-  var ourRequest = new XMLHttpRequest();
-  ourRequest.open("GET", "js/list.json");
-  ourRequest.onload = function () {
-    var ourData = JSON.parse(ourRequest.responseText);
-    renderHTML(ourData);
-    console.log(ourData);
+  var listRequest = new XMLHttpRequest();
+  listRequest.open("GET", "js/list.json");
+  listRequest.onload = function () {
+    var listData = JSON.parse(listRequest.responseText);
+    renderHTML(listData);
+    console.log(listData);
   }
-  ourRequest.send();
+  listRequest.send();
   
   function renderHTML(data) {
-  
+    var htmlString = "";
+    
+    for (i = 0; i < data.length; i++) {
+      htmlString +=
+        "<tr>"
+        + "<td>" + data[i].brand + "</td>"
+        + "<td>" + data[i].name + "</td>"
+        + "<td>" + data[i].color + "</td>"
+        + "<td>" + data[i].size + "</td>"
+        + "<td>" + data[i].price + "</td>"
+        + "<td>" + data[i].quantity + "</td>" +
+        "</tr>"
+    }
+    
+    rootStock.insertAdjacentHTML("beforeend", htmlString);
   }
 }
 
