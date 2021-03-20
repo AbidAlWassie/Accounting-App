@@ -4,6 +4,8 @@ const serverless = require("serverless-http");
 const app = express();
 const router = express.Router();
 
+// const server = app.listen(3000);
+
 module.exports.handler = serverless(app);
 
 router.get("/", (req, res) => {
