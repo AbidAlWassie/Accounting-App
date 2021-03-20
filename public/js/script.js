@@ -5,7 +5,7 @@ window.onload = () => {
   listRequest.onload = function () {
     var listData = JSON.parse(listRequest.responseText);
     renderHTML(listData);
-    console.log(listData);
+    // console.log(listData);
   }
   listRequest.send();
   
