@@ -2,10 +2,42 @@
   {
     "brand" : "Berger",
     "name" : "SPD",
-    "color" : "Red",
+    "color" : "Green",
+    "size" : "3.6 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "Grey",
+    "size" : "3.6 liter",
+    "price" : "500",
+    "quantity" : "6"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "Blue",
+    "size" : "10 liter",
+    "price" : "500",
+    "quantity" : "18"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "Yellow",
+    "size" : "15 liter",
+    "price" : "200",
+    "quantity" : "13"
+  },
+  {
+    "brand" : "Berger",
+    "name" : "SPD",
+    "color" : "Purple",
     "size" : "5 liter",
     "price" : "100",
-    "quantity" : "11"
+    "quantity" : "7"
   },
   {
     "brand" : "Berger",
@@ -13,38 +45,6 @@
     "color" : "Red",
     "size" : "5 liter",
     "price" : "100",
-    "quantity" : "11"
-  },
-  {
-    "brand" : "Berger",
-    "name" : "SPD",
-    "color" : "Red",
-    "size" : "5 liter",
-    "price" : "100",
-    "quantity" : "11"
-  },
-  {
-    "brand" : "Berger",
-    "name" : "SPD",
-    "color" : "Red",
-    "size" : "5 liter",
-    "price" : "100",
-    "quantity" : "11"
-  },
-  {
-    "brand" : "Berger",
-    "name" : "SPD",
-    "color" : "Red",
-    "size" : "5 liter",
-    "price" : "100",
-    "quantity" : "11"
-  },
-  {
-    "brand" : "Berger",
-    "name" : "SPD",
-    "color" : "Red",
-    "size" : "5 liter",
-    "price" : "100",
-    "quantity" : "11"
+    "quantity" : "5"
   }
 ]
