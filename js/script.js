@@ -5,7 +5,7 @@ window.onload = () => {
   ourRequest.onload = function () {
     var ourData = JSON.parse(ourRequest.responseText);
     renderHTML(ourData);
-    console.log(ourData[0]);
+    console.log(ourData);
   }
   ourRequest.send();
   
