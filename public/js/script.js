@@ -22,18 +22,19 @@ window.onload = () => {
         + "<td>" + data[i].price + "</td>"
         + "<td>" + data[i].quantity + "</td>" +
         "</tr>";
-      var a = data[i].price;
-      var b = data[i].quantity;
-      var c = a*b;
-      // var d =+ c;
-      console.log(c)
     }
     
     rootStock.insertAdjacentHTML("beforeend", htmlString);
+    var table = document.getElementById("stock");
+    result = 0;
+    for(var i = 1; i < table.rows.length; i++) {
+      result = result + parseInt(table.rows[i].cells[4].innerHTML) * parseInt(table.rows[i].cells[5].innerHTML);
+    }
+    document.getElementById("result").innerHTML = result;
+    console.log(result);
   }
-  const totalCapital = document.getElementById("result-total");
+  // const totalCapital = document.getElementById("result-total");
   
-  totalCapital.innerHTML = "1800"
 }
 
 /**
@@ -84,6 +85,9 @@ document.querySelectorAll(".table-sortable th").forEach(headerCell => {
     sortTableByColumn(tableElement, headerIndex, !currentIsAscending);
   });
 });
+
+
+
 
 // function addRow() {
 //   // get input values

@@ -46,5 +46,13 @@
     "size" : "5 liter",
     "price" : "60",
     "quantity" : "5"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "Off-White",
+    "size" : "3.6 liter",
+    "price" : "370",
+    "quantity" : "5"
   }
 ]

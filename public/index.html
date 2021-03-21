@@ -1,21 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Stock Items</title>
-        <meta charset="windows-1252">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
+      <title>Stock Items</title>
+      <meta charset="windows-1252">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
-        
-<!--        Brand: <input type="text" name="brand" id="brand" /><br/><br/>-->
-<!--        Product Name: <input type="text" name="name" id="name" /><br/><br/>-->
-<!--        Color: <input type="text" name="color" id="color" /><br/><br/>-->
-<!--        Size: <input type="text" name="size" id="size" /><br/><br/>-->
-<!--        Price: <input type="text" name="price" id="price" /><br/><br/>-->
-<!--        Quantity: <input type="text" name="quantity" id="quantity" /><br/><br/>-->
-<!--        <button onclick="addRow();">Add Row</button><br/><br/>-->
+
 
         <table class="table-sortable" id="stock">
           <thead>
@@ -30,67 +23,34 @@
           </thead>
 
           <tbody id="root-stock" class="list-items">
-<!--          <tr>-->
-<!--            <td>Berger</td>-->
-<!--            <td>Name</td>-->
-<!--            <td>Red</td>-->
-<!--            <td>5 liter</td>-->
-<!--            <td>100</td>-->
-<!--            <td>10</td>-->
-<!--          </tr>-->
-
-<!--          <tr>-->
-<!--            <td>Berger</td>-->
-<!--            <td>Name</td>-->
-<!--            <td>White</td>-->
-<!--            <td>3.6 liter</td>-->
-<!--            <td>200</td>-->
-<!--            <td>2</td>-->
-<!--          </tr>-->
-
-<!--          <tr>-->
-<!--            <td>Dulux</td>-->
-<!--            <td>Name</td>-->
-<!--            <td>Green</td>-->
-<!--            <td>10 liter</td>-->
-<!--            <td>300</td>-->
-<!--            <td>5</td>-->
-<!--          </tr>-->
-
-<!--          <tr>-->
-<!--            <td>Berger</td>-->
-<!--            <td>Name</td>-->
-<!--            <td>Blue</td>-->
-<!--            <td>30 liter</td>-->
-<!--            <td>400</td>-->
-<!--            <td>4</td>-->
-<!--          </tr>-->
-
-<!--          <tr>-->
-<!--            <td>Dulux</td>-->
-<!--            <td>Name</td>-->
-<!--            <td>Grey</td>-->
-<!--            <td>10 liter</td>-->
-<!--            <td>500</td>-->
-<!--            <td>2</td>-->
-<!--          </tr>-->
           </tbody>
 
-        <tfoot>
-        <tr>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th>Total</th>
-          <th id="result-total">1500</th>
-          <th></th>
-        </tr>
-        </tfoot>
+<!--        <tfoot>-->
+<!--        <tr>-->
+<!--          <th></th>-->
+<!--          <th></th>-->
+<!--          <th></th>-->
+<!--          <th>Total</th>-->
+<!--          <th></th>-->
+<!--          <th></th>-->
+<!--        </tr>-->
+<!--        </tfoot>-->
 
 
         </table>
 
+        <span id="result"></span>
     </body>
     <script src="js/script.js"></script>
+    <script>
+      // var table = document.getElementById("stock");
+      // sumVal = 0;
+      // for(var i = 1; i < table.rows.length; i++) {
+      //   sumVal = sumVal + parseInt(table.rows[i].cells[4].innerHTML) * parseInt(table.rows[i].cells[5].innerHTML);
+      //
+      // }
+      // document.getElementById("result").innerHTML = sumVal;
+      // console.log(sumVal);
+    </script>
 
 </html>
