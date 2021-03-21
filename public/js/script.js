@@ -1,7 +1,7 @@
 window.onload = () => {
   var rootStock = document.getElementById("root-stock");
   var listRequest = new XMLHttpRequest();
-  listRequest.open("GET", "js/list.json");
+  listRequest.open("GET", "js/words.json");
   listRequest.onload = function () {
     var listData = JSON.parse(listRequest.responseText);
     renderHTML(listData);

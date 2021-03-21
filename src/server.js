@@ -15,12 +15,12 @@ function listening() {
 
 app.use(express.static("public"));
 
-app.get("/add/:word/:score", addWord);
+app.get("/add/:word/:score?", addWord);
 
 function addWord(request, response) {
   var data = request.params;
   var word = data.word;
-  var score = Number(data.score);
+  var score = data.score;
   var reply;
   if (!score) {
     reply = {
@@ -28,17 +28,19 @@ function addWord(request, response) {
     }
     response.send(reply);
   } else {
-      words[word] = score;
-      var data = JSON.stringify(words, null, 2);
-      fs.writeFile("./public/js/words.json", data, finished);
-      function finished (err) {
-        console.log("All set")
-      }
-      reply = {
-        msg: "Thank you for your word."
-      }
-      response.send(reply);
+    var Obj = [];
+    var newObj = words[word] = score;
+    // words[word] = score;
+    var data = JSON.stringify(newObj, null, 2);
+    fs.writeFile("./public/js/words.json", data, finished);
+    function finished (err) {
+      console.log("All set.")
     }
+    reply = {
+      msg: "Done."
+    }
+    response.send(reply);
+  }
   
 }
 // Route for sending all the concordance data
