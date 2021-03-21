@@ -21,11 +21,19 @@ window.onload = () => {
         + "<td>" + data[i].size + "</td>"
         + "<td>" + data[i].price + "</td>"
         + "<td>" + data[i].quantity + "</td>" +
-        "</tr>"
+        "</tr>";
+      var a = data[i].price;
+      var b = data[i].quantity;
+      var c = a*b;
+      // var d =+ c;
+      console.log(c)
     }
     
     rootStock.insertAdjacentHTML("beforeend", htmlString);
   }
+  const totalCapital = document.getElementById("result-total");
+  
+  totalCapital.innerHTML = "1800"
 }
 
 /**
