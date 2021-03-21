@@ -1,7 +1,7 @@
 window.onload = () => {
   var rootStock = document.getElementById("root-stock");
   var listRequest = new XMLHttpRequest();
-  listRequest.open("GET", "js/words.json");
+  listRequest.open("GET", "js/list.json");
   listRequest.onload = function () {
     var listData = JSON.parse(listRequest.responseText);
     renderHTML(listData);
@@ -77,39 +77,39 @@ document.querySelectorAll(".table-sortable th").forEach(headerCell => {
   });
 });
 
-function addRow() {
-  // get input values
-  const brand = document.getElementById("brand").value;
-  const name = document.getElementById("name").value;
-  const color = document.getElementById("color").value;
-  const size = document.getElementById("size").value;
-  const price = document.getElementById("price").value;
-  const quantity = document.getElementById("quantity").value;
-  
-  // get the html table
-  // 0 = the first table
-  const table = document.getElementsByTagName("table")[0];
-  
-  const newRow = table.insertRow(table.rows.length/2+1);
-  
-  // if (brand === name === color === size) {
-  //
-  // }
-  
-  // add cells to the row
-  const cell1 = newRow.insertCell(0);
-  const cell2 = newRow.insertCell(1);
-  const cell3 = newRow.insertCell(2);
-  const cell4 = newRow.insertCell(3);
-  const cell5 = newRow.insertCell(4);
-  const cell6 = newRow.insertCell(5);
-  
-  // add values to the cells
-  cell1.innerHTML = brand;
-  cell2.innerHTML = name;
-  cell3.innerHTML = color;
-  cell4.innerHTML = size;
-  cell5.innerHTML = price;
-  cell6.innerHTML = quantity;
-}
+// function addRow() {
+//   // get input values
+//   const brand = document.getElementById("brand").value;
+//   const name = document.getElementById("name").value;
+//   const color = document.getElementById("color").value;
+//   const size = document.getElementById("size").value;
+//   const price = document.getElementById("price").value;
+//   const quantity = document.getElementById("quantity").value;
+//
+//   // get the html table
+//   // 0 = the first table
+//   const table = document.getElementsByTagName("table")[0];
+//
+//   const newRow = table.insertRow(table.rows.length/2+1);
+//
+//   // if (brand === name === color === size) {
+//   //
+//   // }
+//
+//   // add cells to the row
+//   const cell1 = newRow.insertCell(0);
+//   const cell2 = newRow.insertCell(1);
+//   const cell3 = newRow.insertCell(2);
+//   const cell4 = newRow.insertCell(3);
+//   const cell5 = newRow.insertCell(4);
+//   const cell6 = newRow.insertCell(5);
+//
+//   // add values to the cells
+//   cell1.innerHTML = brand;
+//   cell2.innerHTML = name;
+//   cell3.innerHTML = color;
+//   cell4.innerHTML = size;
+//   cell5.innerHTML = price;
+//   cell6.innerHTML = quantity;
+// }
 
