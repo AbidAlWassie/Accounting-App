@@ -25,9 +25,9 @@ window.onload = () => {
     }
     
     rootStock.insertAdjacentHTML("beforeend", htmlString);
-    var table = document.getElementById("stock");
+    var table = document.getElementById("root-stock");
     result = 0;
-    for(var i = 1; i < table.rows.length; i++) {
+    for(var i = 0; i < table.rows.length; i++) {
       result = result + parseInt(table.rows[i].cells[4].innerHTML) * parseInt(table.rows[i].cells[5].innerHTML);
     }
     document.getElementById("result").innerHTML = result;
