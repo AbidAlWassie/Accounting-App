@@ -54,5 +54,13 @@
     "size" : "3.6 liter",
     "price" : "370",
     "quantity" : "5"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "White",
+    "size" : "3.6 liter",
+    "price" : "370",
+    "quantity" : "1"
   }
 ]
