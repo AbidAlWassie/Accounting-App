@@ -1,53 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <title>Stock Items</title>
-      <meta charset="windows-1252">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="css/style.css">
-    </head>
+  <head>
+  <title>Stock Items</title>
+  <meta charset="windows-1252">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  <table class="table-sortable" id="stock">
+    <thead>
+      <tr>
+        <th>Brand</th>
+        <th>Product Name</th>
+        <th>Color</th>
+        <th>Size</th>
+        <th>Price</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
 
-    <body>
+    <tbody id="root-stock" class="list-items">
+    </tbody>
 
+    <tfoot>
+      <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>Total</th>
+      <th id="result"></th>
+      <th></th>
+      </tr>
+    </tfoot>
+    </table>
 
-        <table class="table-sortable" id="stock">
-          <thead>
-            <tr>
-              <th>Brand</th>
-              <th>Product Name</th>
-              <th>Color</th>
-              <th>Size</th>
-              <th>Price</th>
-              <th>Quantity</th>
-            </tr>
-          </thead>
-
-          <tbody id="root-stock" class="list-items">
-          </tbody>
-
-        <tfoot>
-        <tr>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th>Total</th>
-        <th id="result"></th>
-        <th></th>
-        </tr>
-        </tfoot>
-
-        </table>
-    </body>
-    <script src="js/script.js"></script>
-    <script>
-      // var table = document.getElementById("stock");
-      // sumVal = 0;
-      // for(var i = 1; i < table.rows.length; i++) {
-      //   sumVal = sumVal + parseInt(table.rows[i].cells[4].innerHTML) * parseInt(table.rows[i].cells[5].innerHTML);
-      //
-      // }
-      // document.getElementById("result").innerHTML = sumVal;
-      // console.log(sumVal);
-    </script>
-
+  </body>
+  <script src="js/script.js"></script>
 </html>
