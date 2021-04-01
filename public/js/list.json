@@ -2719,7 +2719,7 @@
   },
   {
     "brand" : "Berger",
-    "name" : "Easy Clean",
+    "name" : "Easy Clean Base",
     "color" : "W0",
     "size" : "18 liter",
     "price" : "500",
@@ -2727,7 +2727,7 @@
   },
   {
     "brand" : "Berger",
-    "name" : "Easy Clean",
+    "name" : "Easy Clean Base",
     "color" : "W1",
     "size" : "18 liter",
     "price" : "500",
@@ -2735,7 +2735,7 @@
   },
   {
     "brand" : "Berger",
-    "name" : "Easy Clean",
+    "name" : "Easy Clean Base",
     "color" : "W0",
     "size" : "3.64 liter",
     "price" : "500",
@@ -2743,7 +2743,7 @@
   },
   {
     "brand" : "Berger",
-    "name" : "Easy Clean",
+    "name" : "Easy Clean Base",
     "color" : "W1",
     "size" : "3.64 liter",
     "price" : "500",
@@ -2751,7 +2751,7 @@
   },
   {
     "brand" : "Berger",
-    "name" : "Easy Clean",
+    "name" : "Easy Clean Base",
     "color" : "W0",
     "size" : "9.1 liter",
     "price" : "500",
@@ -2759,8 +2759,907 @@
   },
   {
     "brand" : "Berger",
-    "name" : "Easy Clean",
+    "name" : "Easy Clean Base",
     "color" : "W1",
+    "size" : "9.1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "Fairy Pink",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "Garden Green",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "Jacobite",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "Cream",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "Crystal Green",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "Off White",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "Sky Blue",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "White",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "Ocean Blue",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "Flamingo",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "N",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "White",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "Off White",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "Cream",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "Flamingo",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "Sky Blue",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "Crystal Green",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "Garden Green",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "Nebula",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "Ocean Blue",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "Jacobite",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "SPD",
+    "color" : "Fairy Pink",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Super",
+    "color" : "White",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Super",
+    "color" : "90",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Super",
+    "color" : "92",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Super",
+    "color" : "94",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,
+  {
+    "brand" : "Dulux",
+    "name" : "Super",
+    "color" : "White",
+    "size" : "9.1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Super",
+    "color" : "90",
+    "size" : "9.1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Super",
+    "color" : "92",
+    "size" : "9.1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Super",
+    "color" : "94",
+    "size" : "9.1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,
+  {
+    "brand" : "Dulux",
+    "name" : "Super",
+    "color" : "White",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Super",
+    "color" : "90",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Super",
+    "color" : "92",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Super",
+    "color" : "94",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,
+  {
+    "brand" : "Dulux",
+    "name" : "WS",
+    "color" : "White",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "WS",
+    "color" : "90",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "WS",
+    "color" : "92",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "WS",
+    "color" : "94",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,
+  {
+    "brand" : "Dulux",
+    "name" : "WS",
+    "color" : "White",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "WS",
+    "color" : "90",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "WS",
+    "color" : "92",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "WS",
+    "color" : "94",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,
+  {
+    "brand" : "Dulux",
+    "name" : "WS",
+    "color" : "White",
+    "size" : "9.1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "WS",
+    "color" : "90",
+    "size" : "9.1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "WS",
+    "color" : "92",
+    "size" : "9.1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "WS",
+    "color" : "94",
+    "size" : "9.1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,
+  {
+    "brand" : "Dulux",
+    "name" : "WT Sealer",
+    "color" : "None",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "WT Sealer",
+    "color" : "None",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,
+  {
+    "brand" : "Dulux",
+    "name" : "WC Exterior Sealer",
+    "color" : "None",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "WC Exterior Sealer",
+    "color" : "None",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+
+
+  {
+    "brand" : "Dulux",
+    "name" : "Patti",
+    "color" : "None",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Patti",
+    "color" : "None",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Brown",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "White",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Tarzik",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Off White",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Blue",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Smoke",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Green",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Tobacco Brown",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Bitter Chocolate",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Black",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+
+
+  {
+    "brand" : "Dulux",
+    "name" : "Patti",
+    "color" : "None",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Patti",
+    "color" : "None",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+
+
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Brown",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "White",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Tarzik",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Off White",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Blue",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Smoke",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Green",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Tobacco Brown",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Bitter Chocolate",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Black",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+  ,
+
+  
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Off White",
+    "size" : "9.1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Blue",
+    "size" : "9.1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Smoke",
+    "size" : "9.1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Tarzik",
+    "size" : "9.1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Bitter Chocolate",
+    "size" : "9.1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "White",
+    "size" : "9.1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  },
+  {
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Brown",
+    "size" : "9.1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,{
+    "brand" : "Dulux",
+    "name" : "Paint",
+    "color" : "Green",
+    "size" : "9.1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,{
+    "brand" : "Dulux",
+    "name" : "Velvet",
+    "color" : "White",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+  
+  ,{
+    "brand" : "Dulux",
+    "name" : "Velvet",
+    "color" : "92",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,{
+    "brand" : "Dulux",
+    "name" : "Velvet",
+    "color" : "94",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,{
+    "brand" : "Dulux",
+    "name" : "Velvet",
+    "color" : "White",
+    "size" : "9.1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+  
+  ,{
+    "brand" : "Dulux",
+    "name" : "Velvet",
+    "color" : "90",
+    "size" : "9.1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,{
+    "brand" : "Dulux",
+    "name" : "Velvet",
+    "color" : "92",
+    "size" : "9.1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+  
+  ,{
+    "brand" : "Dulux",
+    "name" : "Chemical",
+    "color" : "White",
+    "size" : "1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+  
+  ,{
+    "brand" : "Dulux",
+    "name" : "Chemical",
+    "color" : "92",
+    "size" : "1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,{
+    "brand" : "Dulux",
+    "name" : "Chemical",
+    "color" : "94",
+    "size" : "1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,{
+    "brand" : "Dulux",
+    "name" : "Chemical",
+    "color" : "MAG",
+    "size" : "1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+  
+  ,{
+    "brand" : "Dulux",
+    "name" : "Chemical",
+    "color" : "YOX",
+    "size" : "1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,{
+    "brand" : "Dulux",
+    "name" : "Chemical",
+    "color" : "White",
+    "size" : "1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,{
+    "brand" : "Dulux",
+    "name" : "Chemical",
+    "color" : "OXR",
+    "size" : "1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,{
+    "brand" : "Dulux",
+    "name" : "Chemical",
+    "color" : "LFY",
+    "size" : "1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,{
+    "brand" : "Dulux",
+    "name" : "Chemical",
+    "color" : "TBL",
+    "size" : "1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,{
+    "brand" : "Dulux",
+    "name" : "Chemical",
+    "color" : "BLK",
+    "size" : "1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,{
+    "brand" : "Dulux",
+    "name" : "Chemical",
+    "color" : "FFR",
+    "size" : "1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,{
+    "brand" : "Dulux",
+    "name" : "Chemical",
+    "color" : "GRN",
+    "size" : "1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,{
+    "brand" : "Dulux",
+    "name" : "Birat Sealer WT",
+    "color" : "None",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,{
+    "brand" : "Dulux",
+    "name" : "Birat Sealer WT",
+    "color" : "None",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,{
+    "brand" : "Dulux",
+    "name" : "Birat Sealer WT",
+    "color" : "None",
+    "size" : "9.1 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  
+
+  ,{
+    "brand" : "Dulux",
+    "name" : "Birat Sealer WC",
+    "color" : "None",
+    "size" : "18 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,{
+    "brand" : "Dulux",
+    "name" : "Birat Sealer WC",
+    "color" : "None",
+    "size" : "3.64 liter",
+    "price" : "500",
+    "quantity" : "1"
+  }
+
+  ,{
+    "brand" : "Dulux",
+    "name" : "Birat Sealer WC",
+    "color" : "None",
     "size" : "9.1 liter",
     "price" : "500",
     "quantity" : "1"
