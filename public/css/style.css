@@ -33,6 +33,10 @@ thead > * {
   cursor: pointer;
 }
 
+#list-column {
+
+}
+
 .table-sortable th {
   cursor: pointer;
   user-select: none;
