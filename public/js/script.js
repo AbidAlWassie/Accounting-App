@@ -25,10 +25,15 @@ window.onload = () => {
     }
     
     rootStock.insertAdjacentHTML("beforeend", htmlString);
+    
     var table = document.getElementById("root-stock");
-    result = 0;
+    let result = 0;
+
     for(var i = 0; i < table.rows.length; i++) {
-      result = result + parseInt(table.rows[i].cells[4].innerHTML) * parseInt(table.rows[i].cells[5].innerHTML);
+      let price = parseInt(table.rows[i].cells[4].innerHTML);
+      let quantity = parseInt(table.rows[i].cells[5].innerHTML);
+
+      result = result + price * quantity;
     }
     document.getElementById("result").innerHTML = result;
     console.log(result);
